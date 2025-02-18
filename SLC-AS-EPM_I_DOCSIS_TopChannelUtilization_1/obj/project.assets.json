@@ -351,19 +351,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AldrickGA\\.nuget\\packages\\": {}
+    "C:\\Users\\AmarGE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\GitHub\\Automation\\SLC-AS-EPM_I_DOCSIS_TopFiberNodeOFDMUtilization\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1.csproj",
+      "projectUniqueName": "C:\\Users\\AmarGE\\SLC-AS-EPM_I_DOCSIS_TopFiberNodeOFDMUtilization\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1.csproj",
       "projectName": "SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1",
-      "projectPath": "C:\\GIT\\GitHub\\Automation\\SLC-AS-EPM_I_DOCSIS_TopFiberNodeOFDMUtilization\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1.csproj",
-      "packagesPath": "C:\\Users\\AldrickGA\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\GitHub\\Automation\\SLC-AS-EPM_I_DOCSIS_TopFiberNodeOFDMUtilization\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1\\obj\\",
+      "projectPath": "C:\\Users\\AmarGE\\SLC-AS-EPM_I_DOCSIS_TopFiberNodeOFDMUtilization\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1.csproj",
+      "packagesPath": "C:\\Users\\AmarGE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AmarGE\\SLC-AS-EPM_I_DOCSIS_TopFiberNodeOFDMUtilization\\SLC-AS-EPM_I_DOCSIS_TopChannelUtilization_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AldrickGA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AmarGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -371,9 +371,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://devcore3/nuget": {},
-        "https://nuget.pkg.github.com/SkylineCommunications/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "http://devcore3:81/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net48": {
@@ -411,8 +411,16 @@
             "version": "[1.1.118, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://devcore3:81/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
